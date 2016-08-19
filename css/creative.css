@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
@@ -25,7 +25,6 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -49,10 +48,6 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
-}
-
-.bg-primary {
-    background-color: #f05f40;
 }
 
 .bg-dark {
@@ -153,7 +148,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #337ab7;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -178,7 +173,7 @@ header {
     min-height: auto;
     text-align: center;
     color: black;
-    background-image: url(../img/mariejsv0.4.0.png);
+    background-image: url(../img/mariejs.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -322,9 +317,6 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 
-.text-primary {
-    color: #f05f40;
-}
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
@@ -387,7 +379,6 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
