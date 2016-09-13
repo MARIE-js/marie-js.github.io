@@ -73,15 +73,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   margin-bottom: 450px;
 }
-@media screen and (max-width: 992px) {
-  #fh5co-wrap {
-    margin-bottom: auto;
-  }
-}
 
 #fh5co-footer {
   padding-top: 2em;
-  position: relative;;
+  position: fixed;;
   bottom: 0;
   left: 0;
   width: 100%;
