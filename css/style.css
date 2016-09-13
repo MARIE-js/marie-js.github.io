@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-footer {
-  padding-top: 4em;
-  position: fixed;
+  padding-top: 2em;
+  position: relative;;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -92,9 +92,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 992px) {
   #fh5co-footer {
-    height: inherit;
+    height: auto;
     position: relative;
-    padding: 5em 0;
   }
 }
 #fh5co-footer .fh5co-social li {
